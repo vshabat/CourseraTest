@@ -1,9 +1,86 @@
-body {
-  background-color: gray;
-  font-size: 130%;
+* {
+  box-sizing: border-box;
 }
 
+
 h1 {
-  background-color: green;
-  font-size: 230%;
+  font-size: 300%;
+  text-align: center;
+}
+
+div { 
+
+	margin: 5px;
+}
+
+.msh{
+	margin: 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+.subheader {
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid #666666;
+	border-top: none;
+	border-right: none;
+	width: 200px;
+	float: right;
+	font-size: 180%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.menu-section {
+	position: relative;
+	background-color: rgb(153,153,153);
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #666666;
+}
+
+.menu-text {
+	margin-left: 15px;
+	clear: right;
+	font-size: 120%;
+	
+}
+
+#chicken{
+	background-color: rgb(213,152,152);
+}
+
+#beef{
+	background-color: rgb(193,69,67);
+	color: white;
+}
+
+#sushi{
+	background-color: rgb(229,209,152);
+}
+
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+  
+}
+/********** Medium devices only *********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
 }
