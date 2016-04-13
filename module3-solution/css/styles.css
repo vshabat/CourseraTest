@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: #1F0439;
   background-color: #AA6C39;
   font-family: 'Cinzel Decorative', cursive;
 }
@@ -11,6 +11,12 @@ body {
   background-color: #99A637;
   border-radius: 0;
   border: 0;
+}
+
+#navbar-brand-food {
+  color: #552600;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .navbar a:hover, .navbar a:focus {
@@ -26,7 +32,13 @@ body {
 }
 /* END HEADER */
 
-
+#chicken
+{
+  background-color: #EFF9A6;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 800px;
+}
 
 
 /* END HOME PAGE */
